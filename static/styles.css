@@ -45,6 +45,80 @@ body {
   margin: 0;
 }
 
+.contact-us {
+  background-image: url("../design/images/paper-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 75px;
+  padding-top: 75px;
+  color: #898989;
+}
+
+.contact-us .contact-form {
+  width: 655px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  width: 667px;
+  text-align: right;
+  margin-top: 70px;
+}
+
+.contact-us .text-field {
+  margin-bottom: 45px;
+}
+
+.contact-us .text-field input {
+  width: 475px;
+  border: none;
+  padding: 8px 0px 5px 8px;
+  margin-left: 25px;
+  font-size: 1.6em;
+  font-weight: 200;
+  font-family: Josefin Sans, sans-serif;
+}
+
+.contact-us label {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact-us .comments {
+  display: flex;
+  margin-left: 39px;
+}
+
+.contact-us .comments label {
+  margin: 4px 4px 0px 0px;
+  display: block;
+}
+
+.contact-us #comments {
+  width: 475px;
+  border: none;
+  padding: 8px 0px 5px 8px;
+  margin-left: 25px;
+  font-size: 1.6em;
+  font-weight: 200;
+  font-family: Josefin Sans, sans-serif;
+}
+
+footer {
+  background-color: #52000D;
+  color: #898989;
+  line-height: 15px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-weight: 300;
+  text-align: center;
+}
+
 h2 {
   font-family: viktor-script, sans-serif;
   font-size: 7.2em;
@@ -93,7 +167,7 @@ header strong {
 .hours {
   background-color: #898989;
   color: white;
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 70px;
 }
 
@@ -176,6 +250,26 @@ nav a {
   text-decoration: none;
   font-size: 2em;
   margin-right:35px;
+}
+
+.submit-button {
+  width: 127px;
+  background-color: #898989;
+  padding: 8px;
+  margin-left:auto;
+  margin-top: 45px;
+}
+
+.submit-button input {
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2.4em;
+  font-weight: 400;
+  text-align: center;
+  border: 3px solid white;
+  padding: 6px 14px 6px 14px;
+
 }
 
 .underline {
