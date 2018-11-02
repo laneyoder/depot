@@ -1,119 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
 @import url("https://use.typekit.net/bkg5gqt.css");
 
-$josefin-font: Josefin Sans, sans-serif;
-
-.about-us {
-  background-color: #52000D;
-  color: white;
-  display: flex;
-  padding-left: 225px;
-  padding-right: 225px;
-  justify-content: space-between;
-  padding-bottom: 130px;
-}
-
-.about-image img {
-  width: 560px;
-  padding-top: 180px;
-}
-
-.about-us p {
-  font-size: 1.5em;
-  font-weight: 300;
-  line-height: 18px;
-}
-
-.about-us strong {
-  font-size: 1.8em;
-  text-transform: uppercase;
-  line-height: 22px;
-}
-
-.about-us .underline {
-  width: 94px;
-  margin-bottom: 50px;
-}
-
-.about-text {
-  width: 520px;
-  padding-top: 100px;
-}
+@import 'variables';
+@import 'header';
+@import 'menu';
+@import 'about-us';
+@import 'hours';
+@import 'contact-us';
+@import 'menu-page';
 
 body {
   font-size:62.5%;
   width:100%;
-  font-family: Josefin Sans, sans-serif;
+  font-family: $josefin-font;
   margin: 0;
 }
 
-.contact-us {
-  background-image: url("../../design/images/paper-1.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 75px;
-  padding-top: 75px;
-  color: #898989;
-}
-
-.contact-us .contact-form {
-  width: 655px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contact-us form {
-  display: flex;
-  flex-direction: column;
-  width: 667px;
-  text-align: right;
-  margin-top: 70px;
-}
-
-.contact-us .text-field {
-  margin-bottom: 45px;
-}
-
-.contact-us .text-field input {
-  width: 475px;
-  border: none;
-  padding: 8px 0px 5px 8px;
-  margin-left: 25px;
-  font-size: 1.6em;
-  font-weight: 200;
-  font-family: Josefin Sans, sans-serif;
-}
-
-.contact-us label {
-  font-size: 2em;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.contact-us .comments {
-  display: flex;
-  margin-left: 39px;
-}
-
-.contact-us .comments label {
-  margin: 4px 4px 0px 0px;
-  display: block;
-}
-
-.contact-us #comments {
-  width: 475px;
-  border: none;
-  padding: 8px 0px 5px 8px;
-  margin-left: 25px;
-  font-size: 1.6em;
-  font-weight: 200;
-  font-family: Josefin Sans, sans-serif;
-}
-
 footer {
-  background-color: #52000D;
-  color: #898989;
+  background-color: $red-color;
+  color: $gray-color;
   line-height: 15px;
   padding-top: 45px;
   padding-bottom: 45px;
@@ -122,157 +27,13 @@ footer {
 }
 
 h2 {
-  font-family: viktor-script, sans-serif;
+  font-family: $viktor-font;
   font-size: 7.2em;
   text-align: center;
   margin-bottom: -25px;
   margin-top: 0;
 }
 
-header {
-  background-image: url("../../design/images/coffee-header.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
-
-header img {
-  width: 136px;
-  margin-top: 35px;
-  margin-left: 35px;
-}
-
-header strong {
-  font-family: viktor-script, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10em;
-  line-height: 121px;
-}
-
-.header-text {
-  width: 900px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 245px;
-}
-
-.header-text p {
-  font-size: 2.8em;
-  margin-top: 40px;
-  padding-bottom: 200px;
-  margin-bottom: 0;
-}
-
-.hours {
-  background-color: #898989;
-  color: white;
-  padding-top: 60px;
-  padding-bottom: 70px;
-}
-
-.hours .time {
-  font-size: 2.8em;
-  text-transform: uppercase;
-  line-height: 55px;
-  text-align: center;
-  display: block;
-  margin-top: 25px;
-}
-
-.hours .underline {
-  width: 94px;
-  margin-left: 830px;
-}
-
-.menu {
-  background-image: url("../../design/images/paper-1.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 175px;
-  padding-top: 175px;
-}
-
-.menu img {
-  margin-top: 30px;
-}
-
-.menu strong {
-  font-size: 3.6em;
-  text-transform: uppercase;
-  line-height: 43px;
-}
-
-.menu p {
-  font-size: 2.8em;
-  font-weight: 300;
-  line-height: 34px;
-}
-
-.menu-button {
-  margin-left: auto;
-  margin-right: auto;
-  width: 175px;
-  background-color: #898989;
-  padding: 12px;
-}
-
-.menu-button a {
-  color: white;
-  text-transform: uppercase;
-  font-size: 2.4em;
-  font-weight: 400;
-  text-decoration: none;
-  text-align: center;
-  display:block;
-  border: 3px solid white;
-  padding: 10px;
-}
-
-.menu-text {
-  width: 830px;
-  color: #898989;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-
-nav {
-  float: right;
-  clear: both;
-  margin-top:35px;
-  text-transform: uppercase;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 2em;
-  margin-right:35px;
-}
-
-.submit-button {
-  width: 127px;
-  background-color: #898989;
-  padding: 8px;
-  margin-left:auto;
-  margin-top: 45px;
-}
-
-.submit-button input {
-  background: none;
-  color: white;
-  text-transform: uppercase;
-  font-size: 2.4em;
-  font-weight: 400;
-  text-align: center;
-  border: 3px solid white;
-  padding: 6px 14px 6px 14px;
-
-}
 
 .underline {
   margin-left: auto;

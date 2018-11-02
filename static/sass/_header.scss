@@ -1,0 +1,52 @@
+@import 'variables';
+
+header {
+  background-image: url("../../design/images/coffee-header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+  img {
+    width: 136px;
+    margin-top: 35px;
+    margin-left: 35px;
+  }
+
+  strong {
+    font-family: $viktor-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10em;
+    line-height: 121px;
+  }
+}
+
+.header-text {
+  width: 900px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 245px;
+
+  p {
+    font-size: 2.8em;
+    margin-top: 40px;
+    padding-bottom: 200px;
+    margin-bottom: 0;
+  }
+}
+
+nav {
+  float: right;
+  clear: both;
+  margin-top:35px;
+  text-transform: uppercase;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin-right:35px;
+  }
+}

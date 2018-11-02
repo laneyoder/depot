@@ -1,0 +1,54 @@
+@import 'variables';
+
+.menu {
+  background-image: url("../../design/images/paper-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 175px;
+  padding-top: 175px;
+
+  img {
+    margin-top: 30px;
+  }
+
+  strong {
+    font-size: 3.6em;
+    text-transform: uppercase;
+    line-height: 43px;
+  }
+
+  p {
+    font-size: 2.8em;
+    font-weight: 300;
+    line-height: 34px;
+  }
+}
+
+.menu-button {
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px;
+  background-color: $gray-color;
+  padding: 12px;
+
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.4em;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    display:block;
+    border: 3px solid white;
+    padding: 10px;
+  }
+}
+
+.menu-text {
+  width: 830px;
+  color: $gray-color;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}

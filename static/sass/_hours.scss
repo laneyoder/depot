@@ -1,0 +1,21 @@
+@import 'variables';
+
+.hours {
+  background-color: $gray-color;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 70px;
+
+  .time {
+    font-size: 2.8em;
+    text-transform: uppercase;
+    line-height: 55px;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+  }
+
+  .underline {
+    width: 66px;
+  }
+}
