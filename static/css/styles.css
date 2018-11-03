@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i");
 @import url("https://use.typekit.net/bkg5gqt.css");
 header {
-  background-image: url("../../design/images/coffee-header.png");
+  background-image: url("../images/coffee-header.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +41,7 @@ nav {
     margin-right: 35px; }
 
 .menu {
-  background-image: url("../../design/images/paper-1.png");
+  background-image: url("../images/paper-1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,7 +128,7 @@ nav {
     width: 66px; }
 
 .contact-us {
-  background-image: url("../../design/images/paper-1.png");
+  background-image: url("../images/paper-1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -191,7 +191,7 @@ nav {
     padding: 6px 14px 6px 14px; }
 
 .menu-page {
-  background-image: url("../../design/images/paper-3.png");
+  background-image: url("../images/paper-3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
