@@ -4,9 +4,15 @@
   "description": "",
   "main": "static/index.html",
   "scripts": {
-    "sync": "browser-sync start -s \"static\" -f \"static/**/*.*\"",
+    "stylesync": "cpx \"static/css/**/*\" ../depot-wp/wp-content/themes/depottheme/css --watch",
+    "imagesync": "cpx \"static/images/**/*\" ../depot-wp/wp-content/themes/depottheme/images --watch",
+    "themesync": "cpx \"depottheme/**/*\" ../depot-wp/wp-content/themes/depottheme --watch",
+    "wpsync": "npm-run-all -p themesync stylesync imagesync",
+    "browsersync": "browser-sync start -s \"static\" -f \"static/**/*.*\"",
+    "browsersync-wp": "browser-sync start --proxy http://localhost:80 -f \"../depot-wp/wp-content/themes/**/*.*\"",
     "sass": "node-sass -w --include-path='static/sass' --source-map=true static/sass/styles.scss static/css/styles.css",
-    "start": "npm-run-all -p sync sass",
+    "start": "npm-run-all -p browsersync sass",
+    "start-wp": "npm-run-all -p browsersync-wp wpsync sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
