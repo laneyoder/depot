@@ -30,6 +30,10 @@ header {
     padding-bottom: 200px;
     margin-bottom: 0; }
 
+.menu {
+  list-style: none;
+  display: flex; }
+
 nav {
   float: right;
   clear: both;
@@ -41,20 +45,20 @@ nav {
     font-size: 2em;
     margin-right: 35px; }
 
-.menu {
+.menu-section {
   background-image: url("../images/paper-1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 175px;
   padding-top: 175px; }
-  .menu img {
+  .menu-section img {
     margin-top: 30px; }
-  .menu strong {
+  .menu-section strong {
     font-size: 3.6em;
     text-transform: uppercase;
     line-height: 43px; }
-  .menu p {
+  .menu-section p {
     font-size: 2.8em;
     font-weight: 300;
     line-height: 34px; }
@@ -232,9 +236,6 @@ nav {
     font-size: 1.5em;
     line-height: 27px;
     font-weight: 100; }
-
-.category:last-child {
-  margin-top: -27px; }
 
 body {
   font-size: 62.5%;

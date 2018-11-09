@@ -37,6 +37,11 @@ header {
   }
 }
 
+.menu {
+  list-style: none;
+  display: flex;
+}
+
 nav {
   float: right;
   clear: both;

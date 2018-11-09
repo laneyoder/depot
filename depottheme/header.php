@@ -10,12 +10,14 @@
 </head>
 <body>
   <header>
-    <a href="index.php"><img src="<?php bloginfo('template_directory'); ?>/images/depot-logo.png" />
+    <a href="localhost"><img src="<?php bloginfo('template_directory'); ?>/images/depot-logo.png" />
       <nav>
-        <a href="page.php#menu">Menu</a>
-        <a href="#about-us">About Us</a>
-        <a href="#hours">Hours</a>
-        <a href="#contact-us">Contact Us</a>
+        <?php
+            wp_nav_menu( array(
+                'theme_location' => 'main-nav',
+                'container' => false
+            ));
+        ?>
       </nav>
     <div class="header-text">
       <strong>Come See Why We're Not Your Typical Coffee Shop</strong>
