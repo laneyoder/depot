@@ -141,15 +141,11 @@ nav {
     margin-left: auto;
     margin-right: auto; }
   .contact-us form {
-    display: flex;
-    flex-direction: column;
-    width: 667px;
-    text-align: right;
-    margin-top: 70px; }
+    margin-top: 60px; }
   .contact-us .text-field {
     margin-bottom: 45px; }
     .contact-us .text-field input {
-      width: 475px;
+      width: 467px;
       border: none;
       padding: 8px 0px 5px 8px;
       margin-left: 25px;
@@ -253,7 +249,8 @@ footer {
   padding-top: 45px;
   padding-bottom: 45px;
   font-weight: 300;
-  text-align: center; }
+  text-align: center;
+  margin-top: -20px; }
 
 h2 {
   font-family: viktor-script, sans-serif;
